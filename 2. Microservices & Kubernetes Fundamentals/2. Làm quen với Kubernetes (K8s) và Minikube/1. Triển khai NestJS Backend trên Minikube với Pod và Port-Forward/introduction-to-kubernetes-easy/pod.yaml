@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nestjs-app
+  labels:
+    app: nestjs-app
+spec:
+  containers:
+    - name: nestjs-app
+      image: intro-k8s-nestjs:latest
+      imagePullPolicy: Never
+      ports:
+        - containerPort: 3000

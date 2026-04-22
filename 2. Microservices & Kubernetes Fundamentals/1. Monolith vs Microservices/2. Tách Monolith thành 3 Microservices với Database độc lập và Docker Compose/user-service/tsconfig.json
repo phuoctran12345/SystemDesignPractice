@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "../../1. Monolith vs Microservices/2. Tách Monolith thành 3 Microservices với Database độc lập và Docker Compose/user-service/dist",
+    "baseUrl": "../../1. Monolith vs Microservices/2. Tách Monolith thành 3 Microservices với Database độc lập và Docker Compose/user-service",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}

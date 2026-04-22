@@ -1,7 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { firstValueFrom } from 'rxjs';
+import { firstValueFrom } from '../../../../../2. Tách Monolith thành 3 Microservices với Database độc lập và Docker Compose/1. Monolith vs Microservices/2. Tách Monolith thành 3 Microservices với Database độc lập và Docker Compose/order-service/node_modules/rxjs/src';
 import { Repository } from 'typeorm';
 import { OrderEntity } from './order.entity';
 
