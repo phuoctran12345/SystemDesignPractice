@@ -1,0 +1,10 @@
+architecture: replication
+auth:
+  password: "redispassword123"
+master:
+  persistence:
+    size: 512Mi
+replica:
+  replicaCount: 2
+  persistence:
+    size: 512Mi

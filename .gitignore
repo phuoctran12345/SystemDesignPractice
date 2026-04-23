@@ -17,3 +17,4 @@ yarn-error.log*
 # Internal backups
 .git-backup/
 
+.SystemDesign/IMPORTANT-COMMANDS-NOTES.md
