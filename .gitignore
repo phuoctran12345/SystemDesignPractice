@@ -17,3 +17,6 @@ yarn-error.log*
 # Internal backups
 .git-backup/
 IMPORTANT-COMMANDS-NOTES.md
+
+# Prevent accidentally nesting git repos
+**/.git/
